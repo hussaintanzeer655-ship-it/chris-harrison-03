@@ -1,0 +1,7 @@
+/* reuse base */
+:root{--bg:#fff;--fg:#111;--card:#f8f8f8;}
+body{background:var(--bg);color:var(--fg)}
+.site-header{position:sticky;top:0;background:#fff;border-bottom:1px solid #ddd;padding:10px 14px;}
+.panel{margin:16px auto;padding:14px;max-width:760px;border-radius:8px;background:var(--card);border:1px solid #eee}
+article{display:grid;gap:10px}
+.card{padding:8px 10px;border-radius:6px;border:1px solid #ddd;background:#fff}
